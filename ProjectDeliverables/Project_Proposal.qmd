@@ -1,0 +1,127 @@
+---
+title: Project Proposal
+author: 
+    name: Waleed Elbanna, Joseph Hughes, Neil Inge, Ronit Sharma
+format:
+    html:
+        embed-resources: true
+        html-math-method: katex
+        theme: spacelab
+        toc: true
+---
+
+
+# Project # and Title
+    CS 25-339: Publicly Detectable Watermarking for Large Language Models
+    
+## Report Type
+    Project Proposal
+
+## Prepared for
+    VCU College of Engineering
+
+## Group
+    Waleed Elbanna
+    Joseph Hughes
+    Neil Inge
+    Ronit Sharma
+
+## Under the Supervision of
+    Hong-Sheng Zhou
+
+## Date
+    10/11/2024
+
+# Executive Summary
+Over the past few years, the use of artificial intelligence has been growing at an extremely high rate. Many people use it in their daily lives to help them with basic tasks such as creating a shopping list or even help in technological ways such as creating a new web application. However, with all the good that artificial intelligence does for us, there are also some downsides that come along with it. There are two main downsides that come with using artificial intelligence: cheating and refeeding the same data back into the AI model. The main purpose why we are working on this project is to minimize these harms as much as we can. Failure to do so can result in cheating in assignments or giving back false data/responses. 
+
+So how are we going to achieve our primary objectives? We are going to use “Watermarking” which is the process of embedding unique and easy to find signals/tokens into the output of a large language model. Specific scanning algorithms are used to scan for these specific outputs to detect whether the text/image contains the watermark. There have been many watermarking techniques which have been used to safeguard AI-generated content. Our primary objective is to allow platforms and social media access to the watermarking detection algorithm so that they can detect machine-generated text. We can also keep it private and run with an API for privacy reasons. 
+
+There are multiple design requirements which we would like to fulfill. Our main two requirements are security and robustness. We can achieve these by first making the watermarking process only detectable with the algorithm. We want to make sure that no one can detect the watermark without prior knowledge and keep access limited to authorized users. Next, the watermarked text can only be generated using a standard language model without having to retrain it. We also want to make sure that even if someone only has a chunk of the generated text, they can still detect the watermark. We do not want the generated tokens to be removed from the watermarked text. Finally, we want a high mathematical and theoretical confidence that the generated text is watermarked or not.
+
+Artificial Intelligence is going to continue to improve in the future. We want to see these improvements, but want to keep the integrity of data. The main reasons why we want integrity is to reduce cheating and re-using training data. Creating a watermark that can be algorithmically detected will allow us to have a high confidence of saying if some generated text/image has been modified or not. 
+
+# Section A: Problem Statement
+The rapid growth of artificial intelligence has transformed many industries since it can be used for increasing productivity, streamlining processes, and allowing different types of innovation. AI has become a critical tool which can be used for many different things such as developing web applications or coming up with solutions to complex programming tasks. However, it also comes with many drawbacks such as ethical uses and data integrity. This can directly impact software development or even education.
+
+The first primary challenge that we face when using artificial intelligence is the growing concern over academic dishonesty. Nowadays, people can ask AI to program an assignment which causes them to not learn anything. This challenges the integrity and ethics which those people agree to when attending those classes. 
+
+Another major problem that artificial intelligence faces is data recycling. This causes major issues as it can lead to degrading models and can lead to higher inaccuracies in the AI’s responses. This will make the models less reliable and slow down technological advancements. 
+
+Scope of the Problem:
+	The problem is most seen in academic and professional settings where artificial intelligence tools are being used increasingly. Academic settings are facing rising cases of AI-assisted plagiarism which goes against the credibility and integrity of assignments. In professional environments, recycling of data threatens accuracy and efficiency of the AI models that are being used every day. The stakeholders that need to be addressed in this project are AI developers, educational facilities, and end-users. All of them are directly impacted by the quality of AI outputs.
+
+Historical Perspective:
+    Artificial intelligence assisted cheating has been around since the 2010s, with tools like essay generators and code helpers becoming available. There were early efforts that were created to attempt to stop plagiarism using checkers, but AI advanced too quickly with models like chatGPT. Over time, AI models would recycle data which would affect the accuracy of the data in areas where real-time data is needed.
+
+Relevant Research and Prior Solutions: 
+	There have been multiple solutions developed to try and combat AI-assisted cheating with examples such as detecting specific writing patterns or cross checking content with known AI-generated outputs. However, these types of methods only focus on text. Our project aims to improve previous approaches by utilizing more advanced detection tools which contain preventive measures which should help with ethics and integrity.
+
+# Section B: Engineering Design Requirements:
+
+## B1: Project Goals (i.e. Client Needs):
+The primary goal of this project is to develop a secure and robust watermarking system that embeds unique, detectable signals in AI-generated content (text or images) to minimize harms such as cheating and refeeding data back into AI models. This project aims to allow platforms and social media to detect machine-generated content, ensuring the integrity and authenticity of data while reducing misuse of AI technologies.
+
+## B2: Design Objectives:  
+Security: Ensure that the watermark is only detectable with a proprietary algorithm, limiting access to authorized users.
+Robustness: Guarantee that the watermark remains detectable even if the watermarked content is only partially available.
+Non-intrusiveness: The watermark should be embedded without altering the normal output of the language model, so it doesn’t require retraining the model.
+Privacy Options: Provide the flexibility for watermark detection to be run either publicly for platforms or privately through an API to protect data privacy.
+
+## B3: Design Specifications and Constraints:
+
+The watermark should be undetectable without the scanning algorithm.
+
+Watermarked content should retain the watermark even when sections are removed or altered.
+
+The system must integrate seamlessly with standard language models, without the need for retraining.
+
+Detection algorithms must maintain high mathematical and theoretical confidence in determining whether content is watermarked or not.
+
+The system must be scalable and capable of handling large amounts of generated content in real-time.
+
+## B4: Codes and Standards
+The watermarking system will adhere to relevant privacy and data protection laws such as GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act), ensuring that user data is handled securely and responsibly.
+
+Security best practices in software engineering and cryptography will be followed, particularly around access control, encryption, and detection methods.
+
+Standards for ethical AI use will guide the design, ensuring that the system supports transparency, integrity, and trustworthiness in AI-generated content detection.
+
+# Section C: Scope of Work:
+
+## C1: Deliverables:
+The deliverables for this project will include a secure watermarking algorithm designed to embed detectable signals into AI-generated text without needing to retrain the model. We will develop a publicly accessible API for watermark detection, which can be used either publicly by platforms or privately for sensitive applications. Along with the working system, we’ll deliver comprehensive documentation covering both technical aspects for developers and user instructions. We’ll also demonstrate the effectiveness of the watermarking, showing how it remains detectable even if the text is modified or partially removed.
+
+## C2: Milestones:
+    
+Weeks 1-2: Research and Planning:
+    Start by reviewing existing watermarking techniques to find areas we can improve. We'll also map out our project plan and goals to keep everything on track.
+
+Weeks 3-4: Developing the Watermarking Algorithm:
+    Build the watermarking system using rejection sampling to embed signals in the text. The goal is to do this without changing the model’s output quality or needing to retrain it.
+
+
+Weeks 5-6: API Development and Testing: 
+    Develop both public and private APIs for watermark detection. Test them to ensure they run smoothly and securely, meeting all performance requirements.
+
+
+Week 7: Prototype Demonstration:
+    Present a working prototype of the system and demonstrate how the watermark remains detectable, even if parts of the text are altered or removed.
+
+
+Week 8: Documentation and Final Review: 
+    Finish up by creating detailed documentation for developers and end-users. Review everything to ensure it meets the project’s goals and is ready for deployment.
+
+## C3: Resources:
+To complete the project, we’ll need access to pre-trained large language models like ChatGPT to test and embed the watermarks properly. We’ll use Python or Java as our main programming language along with tools available on GitHub for building and testing the watermarking algorithms. Cloud-based infrastructure will help us with scalability testing to ensure the system works smoothly in real-time. Our team will work together under the supervision of Professor Hong-Sheng Zhou, and we'll rely on their guidance throughout the project. The GitHub repository for this project will also serve as a key resource for code management and collaboration​.
+
+# Appendix 1: Project Timeline (Gantt chart):
+```{mermaid}
+gantt
+    title Project Schedule
+        section 1 Major Deliverables
+        Team Contract :done, 2024-9-6, 8d
+        Project Proposal :done, 2024-10-11, 8d
+        Fall Design Poster :crit, 2024-11-15, 8d
+        Preliminary Design Report :crit, 2024-12-11, 8d
+```
