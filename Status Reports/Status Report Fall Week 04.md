@@ -10,6 +10,7 @@ Waleed Elbanna
 Hongsheng Zhou
 
 **Faculty Advisor:**
+Hongsheng Zhou
 
 ## 1) Accomplishments this week ##
 This week, we focused on evaluating and testing various software tools and platforms to determine the most suitable options for our project. We finalized the selection of key tools and began setting up the environment for implementation. Additionally, we outline detailed task assignments to ensure all team members are clear on their roles and responsibilities moving forward.
