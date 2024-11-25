@@ -13,13 +13,13 @@ Hongsheng Zhou
 Hongsheng Zhou
 
 ## 1) Accomplishments this week ##
-This week, we successfully developed the watermark detection algorithm and integrated it with the embedding process, achieving a functional end-to-end system capable of embedding and detecting watermarks within large language models. We conducted extensive tests using diverse datasets to evaluate the system's performance, robustness, and reliability. Additionally, we began optimizing algorithms for better efficiency and reduced computational overhead. Technical documentation, including user guides and system architecture descriptions, is in progress.
+This week, we continued research on how to improve watermark resilience against test paraphrasing and editing. Our goal is to further optimize the system for scalability and efficiency, potentially leveraging parallet processing techniques. We also looked at user guides to make it easier for new users to use the program.
 
 ## 2) Milestones to be completed next week ##
-Next week, we will investigate methods to improve watermark resilience against text paraphrasing and editing. We will further optimize the system for scalability and efficiency, potentially leveraging parallel processing techniques. We plan to perform stress tests to evaluate system performance under various load conditions. Additionally, we will prepare a progress presentation for feedback from our mentor and faculty advisor.
+Next week, we will continue doing heavy research and programming. We want to find out specific attacks on these algorithms as well as different types of techniques for figuring out false positives. Our main goal at the end of this project is to get a high detection rate of AI written text.
 
 ## 3) Issues, problems or concerns ##
-We discovered that the watermark's detectability decreases significantly when the text is heavily paraphrased. We need to enhance the algorithm to address this vulnerability. The current implementation faces challenges with scalability due to high computational demands. We are exploring optimization techniques and more efficient algorithms. Computational resource constraints continue to slow down testing phases; we are looking into accessing additional resources or optimizing code for better performance. No other significant concerns at this time.
+Our only issue at this point is trying to make sure we get a fully written and tested prototype for the fall end date.
 
 
 
