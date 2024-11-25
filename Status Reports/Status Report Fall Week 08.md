@@ -19,7 +19,7 @@ This week, we continued research on how to improve watermark resilience against 
 Next week, we will continue doing heavy research and programming. We want to find out specific attacks on these algorithms as well as different types of techniques for figuring out false positives. Our main goal at the end of this project is to get a high detection rate of AI written text.
 
 ## 3) Issues, problems or concerns ##
-Our only issue at this point is trying to make sure we get a fully written and tested prototype for the fall end date.
+Same issue as last week where at this point we are trying to make sure we get a fully written and tested prototype for the fall end date.
 
 
 
