@@ -13,10 +13,10 @@ Hongsheng Zhou
 Hongsheng Zhou
 
 ## 1) Accomplishments this week ##
-This week, we continued research on how to improve watermark resilience against test paraphrasing and editing. Our goal is to further optimize the system for scalability and efficiency, potentially leveraging parallet processing techniques. We also looked at user guides to make it easier for new users to use the program.
+This week, we did heavy research on the types of attacks that could potentially affect our results of our program. We conducted extensive research on various attacks that could compromise the accuracy of our program. We also explored potential defenses to make our detection model more robust. These findings will help us improve the reliability of our results.
 
 ## 2) Milestones to be completed next week ##
-Next week, we will continue doing heavy research and programming. We want to find out specific attacks on these algorithms as well as different types of techniques for figuring out false positives. Our main goal at the end of this project is to get a high detection rate of AI written text.
+We want to achieve a high detection rate of AI-written text, so we thoroughly analyzed specific algorithmic vulnerabilities and implemented advanced techniques to mitigate false positives. Our approach combined rigorous research with targeted programming to refine detection mechanisms and optimize their accuracy.
 
 ## 3) Issues, problems or concerns ##
 Same issue as last week where at this point we are trying to make sure we get a fully written and tested prototype for the fall end date.
