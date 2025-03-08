@@ -3,7 +3,7 @@ Students Names: Joseph Hughes, Ronit Sharma, Neil Inge, Waleed Elbanna
 Sponsor: Hongsheng Zhou - College of Engineering  
 Mentor: Hongsheng Zhou  
 Faculty Advisor: Hongsheng Zhou  
-Week 2 Status Report
+Week 3 Status Report
 
 This week's achievements:  
 Compiling Research Findings: We worked extensively on consolidating our research into a structured report, ensuring that all relevant information is clearly presented.  
