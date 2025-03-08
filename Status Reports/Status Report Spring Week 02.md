@@ -1,7 +1,11 @@
 CS 25-339: Publicly Detectable Watermarking with Large Language Models
+
 Students' Names: Joseph Hughes, Ronit Sharma, Neil Inge, Waleed Elbanna
+
 Sponsor: Hongsheng Zhou - College of Engineering
+
 Mentor: Hongsheng Zhou
+
 Faculty Advisor: Hongsheng Zhou
 
 Week 2 Status Report
