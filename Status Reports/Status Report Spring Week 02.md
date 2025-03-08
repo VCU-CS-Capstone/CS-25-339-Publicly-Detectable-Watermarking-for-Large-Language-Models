@@ -15,7 +15,7 @@ This week's achievements:
 - Research on Possible Attacks: We did a thorough study on the different ways our watermarking system might be attacked to ensure it stays secure and reliable.
 - Analysis of Attack Paths: We looked into specific ways these attacks could happen and how they might mess up our watermark detection.
 - Exploring Protective Methods: We checked out various methods to make our watermark detection stronger and more foolproof.
-- Summary of Research:** We gathered all our research into one detailed report to help us improve and make our watermark detection more trustworthy.
+- Summary of Research: We gathered all our research into one detailed report to help us improve and make our watermark detection more trustworthy.
 
 Goals for next week:
 
